@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo Done</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Todo Done</h2>
+      <p>Keep it up!</p>
+      <div class="progress-circle">
+        <span id="progressText">0/0</span>
+        <div class="bar"><div id="barFill"></div></div>
+      </div>
+    </div>
+
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Write your task" />
+      <button id="addTask">+</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
